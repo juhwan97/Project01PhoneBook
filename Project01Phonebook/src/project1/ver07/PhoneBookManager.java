@@ -31,7 +31,6 @@ public class PhoneBookManager {
 			PhoneInfo pi = new PhoneInfo (name, phoneNumber);
 			if(set.add(pi)) {
 				phoneBook[numOfPhone++] = pi;
-				System.out.println("==정보가 입력되었습니다.");
 			}
 			else {
 				System.out.println("이미 저장된 데이터입니다.");
